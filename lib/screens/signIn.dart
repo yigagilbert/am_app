@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 import 'package:health_and_doctor_appointment/screens/register.dart';
 
@@ -215,7 +215,7 @@ class _SignInState extends State<SignIn> {
                         borderRadius: BorderRadius.circular(32)),
                     child: IconButton(
                       icon: Icon(
-                        FlutterIcons.google_ant,
+                        Icons.app_registration,
                         color: Colors.white,
                       ),
                       onPressed: () {},
@@ -230,7 +230,7 @@ class _SignInState extends State<SignIn> {
                         borderRadius: BorderRadius.circular(32)),
                     child: IconButton(
                       icon: Icon(
-                        FlutterIcons.facebook_f_faw,
+                        Icons.facebook_sharp,
                         color: Colors.white,
                       ),
                       onPressed: () {},

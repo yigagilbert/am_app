@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+
 import 'package:google_fonts/google_fonts.dart';
 import 'package:health_and_doctor_appointment/firestore-data/searchList.dart';
 
@@ -56,7 +56,7 @@ class _DoctorsListState extends State<DoctorsList> {
                     fontWeight: FontWeight.w800,
                   ),
                   prefixIcon: Icon(
-                    FlutterIcons.search1_ant,
+                    Icons.search,
                     size: 20,
                   ),
                   prefixStyle: TextStyle(

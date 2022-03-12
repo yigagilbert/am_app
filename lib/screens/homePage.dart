@@ -11,7 +11,6 @@ import 'package:intl/intl.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_icons/flutter_icons.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -174,7 +173,7 @@ class _HomePageState extends State<HomePage> {
                             iconSize: 20,
                             splashRadius: 20,
                             color: Colors.white,
-                            icon: Icon(FlutterIcons.search1_ant),
+                            icon: Icon(Icons.search),
                             onPressed: () {},
                           ),
                         ),

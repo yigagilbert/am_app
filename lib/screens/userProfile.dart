@@ -4,7 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+
 import 'package:health_and_doctor_appointment/firestore-data/appointmentHistoryList.dart';
 import 'package:health_and_doctor_appointment/screens/userSettings.dart';
 
@@ -64,7 +64,7 @@ class _UserProfileState extends State<UserProfile> {
                           alignment: Alignment.topRight,
                           child: IconButton(
                             icon: Icon(
-                              FlutterIcons.gear_faw,
+                              Icons.settings,
                               color: Colors.white,
                               size: 20,
                             ),
@@ -206,7 +206,7 @@ class _UserProfileState extends State<UserProfile> {
                             width: 27,
                             color: Colors.indigo[600],
                             child: Icon(
-                              FlutterIcons.pencil_ent,
+                              Icons.input,
                               color: Colors.white,
                               size: 16,
                             ),
@@ -251,7 +251,7 @@ class _UserProfileState extends State<UserProfile> {
                             width: 27,
                             color: Colors.green[900],
                             child: Icon(
-                              FlutterIcons.history_faw,
+                              Icons.history,
                               color: Colors.white,
                               size: 16,
                             ),

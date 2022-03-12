@@ -8,7 +8,7 @@ import 'package:health_and_doctor_appointment/screens/doctorsList.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:typicons_flutter/typicons_flutter.dart';
 import 'package:quick_actions/quick_actions.dart';
@@ -98,12 +98,12 @@ class _MainPageState extends State<MainPage> {
                   GButton(
                     iconSize: _selectedIndex != 0 ? 28 : 25,
                     icon: _selectedIndex == 0
-                        ? FlutterIcons.home_fou
-                        : FlutterIcons.home_variant_outline_mco,
+                        ? Icons.home
+                        : Icons.home_mini_outlined,
                     text: 'Home',
                   ),
                   GButton(
-                    icon: FlutterIcons.search1_ant,
+                    icon: Icons.search,
                     text: 'Search',
                   ),
                   GButton(
