@@ -1,12 +1,12 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:am_app/screens/doctorProfile.dart';
-import 'package:am_app/screens/firebaseAuth.dart';
-import 'package:am_app/mainPage.dart';
-import 'package:am_app/screens/myAppointments.dart';
-import 'package:am_app/screens/skip.dart';
-import 'package:am_app/screens/userProfile.dart';
+import 'package:health_and_doctor_appointment/screens/doctorProfile.dart';
+import 'package:health_and_doctor_appointment/screens/firebaseAuth.dart';
+import 'package:health_and_doctor_appointment/mainPage.dart';
+import 'package:health_and_doctor_appointment/screens/myAppointments.dart';
+import 'package:health_and_doctor_appointment/screens/skip.dart';
+import 'package:health_and_doctor_appointment/screens/userProfile.dart';
 import 'package:flutter/services.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 

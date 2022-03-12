@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(am_app LANGUAGES CXX)
+project(health_and_doctor_appointment LANGUAGES CXX)
 
-set(BINARY_NAME "am_app")
+set(BINARY_NAME "health_and_doctor_appointment")
 
 cmake_policy(SET CMP0063 NEW)
 

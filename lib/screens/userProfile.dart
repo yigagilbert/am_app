@@ -5,8 +5,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_icons/flutter_icons.dart';
-import 'package:am_app/firestore-data/appointmentHistoryList.dart';
-import 'package:am_app/screens/userSettings.dart';
+import 'package:health_and_doctor_appointment/firestore-data/appointmentHistoryList.dart';
+import 'package:health_and_doctor_appointment/screens/userSettings.dart';
 
 class UserProfile extends StatefulWidget {
   @override
@@ -324,14 +324,14 @@ class _UserProfileState extends State<UserProfile> {
         return Container(
           alignment: Alignment.centerLeft,
           padding: EdgeInsets.only(top: 10, left: 40),
-          child: Text(
-            userData['bio'] == null ? "No Bio" : userData['bio'],
-            style: GoogleFonts.lato(
-              fontSize: 16,
-              fontWeight: FontWeight.w500,
-              color: Colors.black38,
-            ),
-          ),
+          child: Text(""
+              //snapshot.data[bio] == null ? "No Bio" : userData['bio'],
+              //style: GoogleFonts.lato(
+              //fontSize: 16,
+              //fontWeight: FontWeight.w500,
+              //color: Colors.black38,
+              // ),
+              ),
         );
       },
     );

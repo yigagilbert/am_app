@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:am_app/screens/register.dart';
-import 'package:am_app/screens/signIn.dart';
+import 'package:health_and_doctor_appointment/screens/register.dart';
+import 'package:health_and_doctor_appointment/screens/signIn.dart';
 
 class FireBaseAuth extends StatefulWidget {
   @override

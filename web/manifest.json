@@ -1,6 +1,6 @@
 {
-    "name": "am_app",
-    "short_name": "am_app",
+    "name": "health_and_doctor_appointment",
+    "short_name": "health_and_doctor_appointment",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

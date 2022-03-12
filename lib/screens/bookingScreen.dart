@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:am_app/screens/myAppointments.dart';
+import 'package:health_and_doctor_appointment/screens/myAppointments.dart';
 import 'package:intl/intl.dart';
 
 class BookingScreen extends StatefulWidget {
@@ -47,7 +47,7 @@ class _BookingScreenState extends State<BookingScreen> {
       context: context,
       initialDate: DateTime.now(),
       firstDate: DateTime(2021),
-      lastDate: DateTime(2025),
+      lastDate: DateTime(2030),
     ).then(
       (date) {
         setState(
